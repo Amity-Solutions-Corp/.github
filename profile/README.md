@@ -1,11 +1,10 @@
 <!-- Amity Solutions Corporation - Internal Engineering Hub -->
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://static.amity.tools/images/company/amity-solutions-primary.svg"/>
-    <img src="https://static.amity.tools/images/company/amity-solutions-primary.svg" alt="Amity Solutions Corporation" width="100%" style="background-color: white; padding: 16px 64px; border-radius: 12px;"/>
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://static.amity.tools/images/company/amity-solutions-white-primary.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://static.amity.tools/images/company/amity-solutions-primary.svg" />
+  <img alt="Amity Solutions Corporation" src="https://static.amity.tools/images/company/amity-solutions-white-primary.svg" width="100%" />
+</picture>
 
 <br/>
 
