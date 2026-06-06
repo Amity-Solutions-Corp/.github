@@ -92,11 +92,11 @@ terraform >= 1.6
 
 ## � Development Workflow
 
-```
-┌──────────┐     ┌──────────┐     ┌──────────┐     ┌──────────┐
-│  Feature  │────▶│   PR +   │────▶│  Staging  │────▶│   Prod   │
-│  Branch   │     │  Review  │     │  Deploy   │     │  Release │
-└──────────┘     └──────────┘     └──────────┘     └──────────┘
+```mermaid
+graph LR
+    A[🌿 Feature Branch] -->|Push| B[🔍 PR + Review]
+    B -->|Approve| C[🧪 Staging Deploy]
+    C -->|Verify| D[🚀 Prod Release]
 ```
 
 - **Branching** — `feature/*`, `fix/*`, `hotfix/*` off `main`
@@ -133,13 +133,10 @@ terraform >= 1.6
 
 | Resource | Link |
 |----------|------|
-| 📖 Engineering Wiki | [Confluence](https://amity.atlassian.net/wiki) |
-| 📋 Project Boards | [Jira](https://amity.atlassian.net/jira) |
-| � Monitoring | [Grafana Dashboard](https://grafana.internal.amity.co) |
-| 🚨 Alerts | [PagerDuty](https://amity.pagerduty.com) |
-| � Secrets | [AWS Secrets Manager](https://console.aws.amazon.com) |
-| 🏗️ CI/CD | [GitHub Actions](https://github.com/orgs/amity-solutions-corp/actions) |
-| 💬 Team Chat | [Slack Workspace](https://amity-eng.slack.com) |
+| 📖 Engineering Wiki | [Outline](https://amitysolutions.getoutline.com/home) |
+| 📋 Project Boards | [Jira](https://ekoapp.atlassian.net/jira) |
+| 📊 Observability | [Grafana](https://grafana-central.amitysolutions.com/) |
+| 💬 Team Chat | [EKO](https://ekogreen.ekoapp.com/) |
 
 ---
 
@@ -147,10 +144,10 @@ terraform >= 1.6
 
 | Issue | Contact |
 |-------|---------|
-| Access / Permissions | `#eng-help` on Slack |
-| CI/CD Failures | `#eng-infra` on Slack |
-| Production Incidents | Page on-call via PagerDuty |
-| Security Concerns | `security@amitysolutions.com` |
+| Access / Permissions | Platform Team in EKO or Jira |
+| CI/CD Failures | Platform Team in EKO or Jira |
+| Production Incidents | Grafana IRM |
+| Security Concerns | security@amitysolutions.com |
 
 ---
 
