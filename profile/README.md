@@ -1,9 +1,9 @@
 <!-- Amity Solutions Corporation - Internal Engineering Hub -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://static.amity.tools/images/company/amity-solutions-white-primary.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://static.amity.tools/images/company/amity-solutions-primary.svg" />
-  <img alt="Amity Solutions Corporation" src="https://static.amity.tools/images/company/amity-solutions-white-primary.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://static.amity.tools/images/company/amity-solutions-2026-white-primary.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://static.amity.tools/images/company/amity-solutions-2026-primary.svg" />
+  <img alt="Amity Solutions Corporation" src="https://static.amity.tools/images/company/amity-solutions-2026-white-primary.svg" width="100%" />
 </picture>
 
 <br/>
